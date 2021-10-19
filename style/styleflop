@@ -1,0 +1,94 @@
+.logopos{
+    /* padding-left: 135px;
+    padding-top: 16px; */
+    width: 56px;
+  height: 50px;
+}
+.stylemodal{
+    /* padding-left: 1099px; */
+    width: 206px;
+  height: 44px;
+  margin: 5px 0 3px 908px;
+  object-fit: contain;
+  padding-top: 21px;
+    
+}
+
+
+.main{
+    width: 1440px;
+  height: 2085px;
+  padding: 16px 0 0;
+}
+
+
+
+.fcc-btn {
+    border-radius: 3px;
+    background-color: #0f1318;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    
+
+    
+  }
+  a:link{
+    text-decoration: none!important;
+    color: white;
+  }
+  .fcc-btn:hover {
+    color: #fff;
+  }
+
+
+
+
+
+  
+.header { padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    width: 206px;
+     height: 44px;
+     margin: 5px 0 3px 908px;
+     object-fit: contain;
+  }
+  
+  .header logo {
+    padding-left: 135px;
+    padding-top: 16px;
+    margin-left: 135px;
+  }
+  
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    padding-right: 135px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
