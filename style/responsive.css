@@ -1,0 +1,491 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+@media (max-width:468px)  { 
+  
+    .main{
+      width: auto;
+      height: 1822px;
+      box-sizing: unset;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin: 0px auto;
+      
+    }
+    .logo{
+      width: 42px;
+      height: 38px;
+      box-sizing: unset;
+      background-color: #fff;
+      margin: 8px 70px 8px 16px;
+
+    }
+    .l1{
+        width: auto;
+  height: 1px;
+  margin: 0px 0 24px;
+  border: solid 1px #0f1318;
+  background-color: #0f1318;;
+    }
+    .mbutton{
+      background-color: #0f1318;
+      border-radius: 4px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-family: "CircularStd-Medium",sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+  font-style: normal;
+      cursor: pointer;
+       min-width: 176px; 
+       height: 36px;
+      float: right;
+      box-sizing: border-box;
+     padding: 0 16px ;
+      margin: 10px 16px 8px 0 ;
+    }
+    .heading1{
+        box-sizing: unset;
+        width: auto;
+        height: auto;
+        margin: auto;
+        font-family: "CircularStd-Bold" ,sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 34px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #0f1318;
+        margin: 0 21px;
+        padding: 0 21px;
+        
+
+    }
+   
+    #mbbrk::after{
+        content: "\a";
+        white-space: pre;
+    }
+    .desc1{
+        box-sizing: unset;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 26px;
+        letter-spacing: 0px;
+        color: #0f1318;
+        margin: auto;
+        text-align: center;
+    
+    width: auto;
+    height: 104px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    
+
+    }
+    
+    .mbutton2{
+      box-sizing: unset;
+      margin-left: 72px;
+    margin: 0 auto;
+    width: 176px;
+    height: 40px;
+    padding: 0px;
+  font-family: "CircularStd-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 12px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #0f1318;
+  border: 0px;
+    }
+    .button2{
+      display: flex;
+      margin-bottom: 32px;
+    }
+    .rectangle{
+      box-sizing: unset;
+      width: 270px;
+      height: 163px;
+      padding: 0px 0px;
+      border-radius: 11.7px;
+      border: solid 2px #000;
+      background-color: #fff;
+      margin: 0 auto ;
+    
+        
+    }
+    .screenimg{
+      box-sizing: unset;
+      width: 261px;
+  height: 154px;
+      object-fit: contain;
+      padding: 4px 5px 2px 4px;
+    
+    }
+    .rectangle2{
+      box-sizing: unset;
+        max-width: 51px;
+      height: 21px;
+      margin: 0 105px;
+      border: solid 0.8px #000;
+      background-color: #fff;
+      width: auto;
+     
+    }
+    .stand{
+      box-sizing: unset;
+      width: 84px;
+      height: 7px;
+      border-radius: 130px;
+      border:  2px solid #000;
+      background-color: #fff;
+      border-bottom: none;
+      padding-bottom: 0 ;
+      margin: auto;
+      margin-top: 17px;
+    
+    }
+    .btstand{
+      box-sizing: unset;
+      width: 288px;
+  height: 1px;
+  /* margin: 26px 16px 41px 16px; */
+  border: solid 0.8px #000;
+      background:#0f1318 ;
+      justify-content: center;
+      
+    }
+    .bottomstand{
+      margin-bottom: 41px;
+    }
+    .lowrect{
+      box-sizing: unset;
+      width: auto;
+      height: 974px;
+      background-color: #f6f5ed;
+      padding-top: 0;
+      padding: 0 0 24px 0;
+      
+    }
+    .sechead{
+      box-sizing: unset;
+      width: auto;
+      height: 34px;
+      padding-left: 113px;
+      padding-right: 113px;
+      margin-bottom: 16px;
+      font-size: 24px;
+      color: #0f1318;
+      text-align: center;
+      font-family: "CircularStd-Bold", sans-serif;
+      line-height: 34px;
+      padding-top: 32px;
+        
+    }
+    .flex{
+      box-sizing: unset;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: fit-content;
+    }
+    #hid{
+      display: none;
+    }
+    .backrect{
+      box-sizing: unset;
+      width: 288px;
+  height: 304px;
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 24px;
+      border: solid 1.5px #0f1318;
+      background-color: rgba(0, 0, 0, 0.12);
+      padding: 2px 2px 12px 2px;
+      margin-bottom: 16px;
+    }
+    .frontrect{
+      box-sizing: unset;
+      width: 284px;
+  height: 290px;
+      background-color: #f3efe7;
+      border-radius: 24px;
+      padding-bottom: 12px;
+    }
+    .recthead{
+      box-sizing: unset;
+      width: auto;
+      height: auto; 
+      margin: 0 95px 8px 94px;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: normal;
+      color: #212121;
+      
+      
+    }
+    .rectdesc{
+      box-sizing: unset;
+      width: 259px;
+      height: 120px;
+      padding : 0 15px 36px 14px;
+      margin-bottom:  0 ;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      line-height: 24px;
+      color: #212121;
+    
+    }
+    .backrect2{
+      box-sizing: unset;
+      width: 288px;
+  height: 260px;
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 24px;
+      border: solid 1.5px #0f1318;
+      background-color: rgba(0, 0, 0, 0.12);
+      padding: 2px 0 0 2px;
+      margin-bottom: 16px;
+    }
+    .frontrect2{
+      box-sizing: unset;
+      width: 284px;
+  height: 246px;
+      background-color: #f3efe7;
+      border-radius: 24px;
+      padding : 0;
+    }
+    .recthead2{
+      box-sizing: unset;
+      width: 82px;
+      height: 52px; 
+      margin: 0 101px 8px 101px;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #212121;
+      
+    }
+    .rectdesc2{
+      box-sizing: unset;
+      width: 259px;
+      height: 72px;
+      padding : 0 15px 24px 12px;
+      margin-bottom:  0 ;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      line-height: 24px;
+      color: #212121;
+    
+    }
+    .backrect3{
+      box-sizing: unset;
+      width: 288px;
+  height: 256px;
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 24px;
+      border: solid 1.5px #0f1318;
+      background-color: rgba(0, 0, 0, 0.12);
+      padding: 2px 0 0 2px;
+      margin-bottom: 0;
+    }
+    .frontrect3{
+      box-sizing: unset;
+      width: 284px;
+  height: 242px;
+      background-color: #f3efe7;
+      border-radius: 24px;
+      padding : 0;
+    }
+    .recthead3{
+      box-sizing: unset;
+      width: 82px;
+      height: 52px; 
+      margin: 0 101px 8px 101px;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #212121;
+      
+    }
+    .rectdesc3{
+      box-sizing: unset;
+      width: 246px;
+      height: 72px;
+      padding : 0 15px 24px 12px;
+      margin-bottom:  0 ;
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      line-height: 24px;
+      color: #212121;
+    
+    }
+    .rectimg{
+      box-sizing: unset;
+      margin: 16px 113px 12px 113px;
+      width: 58px;
+      height: 58px;
+       background-color: #0f1318;
+       border-radius: 30px;
+    }
+    .footer{
+      box-sizing: unset;
+      width: auto;
+      height: 193px;
+      background-color: #d4181d;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 24px;
+    }
+    .footerlogo{
+      box-sizing: unset;
+      width: 42px;
+      height: 38px;
+      padding: 24px 139px 13px 139px;
+      margin: auto;
+    }
+    .footert1{
+      box-sizing: unset;
+      
+      height: 13;
+      flex-direction: column;
+      
+      font-family: "CircularStd-Medium", sans-serif;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #fff;
+      padding-top: 0px;
+    }
+    .footertt{
+      margin: auto;
+    }
+.footert2{
+  box-sizing: unset;
+height: 26px;
+padding-top: 0 ;
+padding-bottom: 16px;
+font-family: "CircularStd-Medium", sans-serif;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+margin: auto;
+}
+.footerbutton{
+  box-sizing: unset;
+  border-radius: 4px;
+  background-color: #0f1318;
+  font-family: "CircularStd-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  /* padding: 12px 0 12px 0; */
+  margin: auto;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.modal-dialog{
+  width: auto ;
+  height: 602px;
+  margin: 24px 36px 64px 36px;
+}
+.modal, .modal-content, .modal-dialog{
+  box-sizing: unset;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-content{
+  height: 618px;
+}
+label{
+  font-family: "CircularStd-Book", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #81868b;
+  margin-bottom: 8px;
+}
+h5{
+  line-height: 1.44;
+  font-size: 18px;
+  color: #212121;
+}
+.form-control{
+  background-color: #ededea;
+  margin-bottom: 0;
+  width: 256px;
+  height: 40px;
+  padding-right: 85px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 12px;
+
+}
+.modal-header{
+  border-bottom-width: 0px;
+  height: 54px;
+  padding: 12px 77px 16px 16px;
+}
+.modal-body{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 0 16px 0 16px;
+}
+.form-group{
+  margin-bottom: 0;
+  height: 164px;
+}
+.modal-footer{
+  padding-top: 0;
+  border-top: 0;
+  padding-bottom: 12px;
+
+  padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.mdlbtn{
+  width: 256px;
+  height: 40px;
+  margin: 16px 0 0;
+  border-radius: 4px;
+  background-color: #0f1318;
+  padding: 0px;
+  }
+}
