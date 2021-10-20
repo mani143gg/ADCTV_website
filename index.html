@@ -22,11 +22,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="style/style.css">
-<!-- <link rel="stylesheet" href="style/responsive.css"> -->
-<!-- <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet"> -->
-                
-<!-- <link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet" type="text/css"/>
-<link href="//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium" rel="stylesheet" type="text/css"/> -->
+<link rel="icon" href="assets/favicon.svg" width="16px" height="16px" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <title>ADCTV</title>
 </head>
 <body>
@@ -46,16 +43,25 @@
         <button  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Sign up for Beta Access</button>
      </div>
     
-        
+        <!-- custom image with stand and box -->
+            <!-- 
             <img class="mainimg" src="assets/Ad screen.png" alt="">
             <div class="stand"></div>
             <div class="stand2"></div>
-            <hr class="stand3">
+            <hr class="stand3"> -->
+
+            <div class="row bannerimg">
+                <img  class="col-sm-12 " src="assets/Banner image.svg" alt="">
+            </div>
+                
+
+
+
 
             <section class="sec">
                 <h2>Section Heading</h2>
                 <div class="row">
-                    <div class=".col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class=".col-4 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                         <div class="secbox1">
                             <div class="secbox2 ">
                                 <img class="secimg" src="assets/ic-easy-to-use.png" alt="">
@@ -64,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=".col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class=".col-4 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                         <div class="secbox1">
                             <div class="secbox2">
                                 <img class="secimg" src="assets/ic-realtime-reporting.png" alt="">
@@ -74,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=".col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class=".col-4 col-sm-12 col-md-12 col-lg-412 col-xl-4">
                         <div class="secbox1">
                             <div class="secbox2">
                                 <img class="secimg" src="assets/ic-televison.png" alt="">
@@ -88,31 +94,17 @@
             </section>
         
     <footer>
-        
-               
-               
- 
-    
-            <!-- <div class="footertxt">
-                <p class="footert1" >3 in Austin, Tx and Bangalore, India.</p> 
-                <p class="footert2" >All Rights Reserved by Airtory.</p>
-            </div> -->
-            <!-- <div >
-                <p class="footertxt">3 in Austin, Tx and Bangalore, India. <br>
-                    All Rights Reserved by Airtory.</p>
-                    <div class="footerbtn">
-                        <button class="footerbutton" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Sign up for Beta Access</button>
-                    </div>
-            </div> -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <img class="footerlogo" src="assets/adctvfooter.svg" alt="">
-                </div>
+       
+
+            <div class="row justify-content-end">
+                
+                    <div class="col-lg-8"> <img class="footerlogo" src="assets/adctvfooter.svg" alt=""></div>
+                
                 <div class="col-lg-2">
                     <p class="footertxt">3 in Austin, Tx and Bangalore, India. <br>
                         All Rights Reserved by Airtory.</p>
                 </div>
-                <div class="col-lg-2 footerbtn">
+                <div class=" col-lg-2  footerbtn">
                     <button class="footerbutton" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Sign up for Beta Access</button>
 
                 </div>
@@ -141,7 +133,7 @@
                     </div>
 
                     <div class=" modal-body  " >
-                        <div class="container px-0 py-0">
+                        <div class="container m-0 px-0 py-0">
                             <div class="row">
                                 <div class="col-md-10 ">
                                     <form>
@@ -175,7 +167,13 @@
                                             </div>
                                             <div class="col-sm-6">
                                                 <label for="inputRole" >Role</label>
-                                                <input type="text" class="form-control" id="inputRole" placeholder="" >
+                                                <select class="form-control" id="inputRole" name="roles">
+                                                    <option value="option1"></option>
+                                                    <option value="">option2</option>
+                                                    <option value="">option3</option>
+                                                    <option value="">option4</option>
+                                                  </select>
+                                                
                                             </div>
                                         </div>
                                        
