@@ -987,3 +987,10 @@
 .container{
     width: auto;
 }
+
+.contact__msg{
+    display: none;
+}
+.contact__msg {
+    display: none;
+}
