@@ -983,3 +983,7 @@
 .section3-bg{
     background-color: #f6f5ed;
 }
+
+.container{
+    width: auto;
+}
