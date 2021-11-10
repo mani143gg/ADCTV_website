@@ -1,0 +1,701 @@
+/* Mobile */
+
+    .header-logo{
+        width: 42px;
+        height: 38px;
+    }
+    .header-button{
+        padding: 11px 12px 13px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        float: right;
+    }
+    .adctv-h1{
+        font-family: "CircularStd", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        padding: 24px 0 12px 0;
+        max-width: 278px;
+        margin: 0 auto;
+    }
+    .adctv-main-desc{
+        font-family: "CircularStd", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        text-align: center;
+        max-width: 278px;
+        color: #0f1318;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+    .section2-button{
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        padding: 14px 12px;
+        display: block;
+        margin: 0 auto;
+    }
+    .section2-img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 32px 0 40px 0;
+    }
+    .sec3-pad{
+        padding: 32px 18px 40px;
+    }
+    .section3-h{
+        font-family: "CircularStd-Bold", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        margin: 0 auto;
+    }
+    .sec3-mainbox{
+        border-radius: 12px;
+        border: solid 1.5px #0f1318;
+        background-color: rgba(0, 0, 0, 0.12);
+        padding: 2px 2px 12px ;
+        margin-top: 18px;
+    }
+    .sec3-subbox{
+        padding: 16px 13px 24px 12px;
+        background-color: #f3efe7;
+    }
+    .sec3-box-logo{
+        width: 58px;
+        height: 58px;
+        display: block;
+        margin: 0 auto;
+    }
+    .sec3-h{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        padding-top: 12px ;
+
+    }
+    .sec3-desc{
+        font-family:" CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+    }
+    .foo-bg{
+        padding: 24px 44px 24px 45px;
+        background-color: #d4181d;
+    }
+    .foot-img{
+        width: 42px;
+        height: 38px;
+        display: block;
+        margin: 0 auto;
+    }
+    .foo-desc{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-top: 12px;
+    }
+    .foo-button{
+        padding: 11px 12px 13px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    /* modal */
+    .adctv-modal{
+        padding: 12px 0 16px;
+        border-radius: 4px;
+        background-color: #fff;
+
+    }
+    .modal-header{
+        padding: 0;
+        padding-left: 16px;
+    }
+    label{
+        font-family: "CircularStd-Book",sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #81868b;
+    }
+    .form-control{
+        padding: 11px 97px 11px 12px;
+        border-radius: 4px;
+        background-color: #ededea;
+        font-family: "CircularStd-Book", sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        color: #0f1318;
+        margin-bottom: 16px;
+    }
+    .form-group{
+        margin-bottom: 0;
+    }
+    .modal-footer{
+        padding: 0;
+    }
+    .mdlbtn{
+        padding: 13px 82px 14px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin: 0 16px;
+    }
+
+
+
+
+/* tab */
+@media (min-width: 768px) {
+    .header-logo{
+        width: 42px;
+        height: 38px;
+    }
+    .header-button{
+        padding: 11px 12px 13px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        float: right;
+    }
+    .adctv-h1{
+        font-family: "CircularStd", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        padding: 24px 0 12px 0;
+        max-width: 278px;
+        margin: 0 auto;
+    }
+    .adctv-main-desc{
+        font-family: "CircularStd", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        text-align: center;
+        max-width: 278px;
+        color: #0f1318;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+    .section2-button{
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        padding: 14px 12px;
+        display: block;
+        margin: 0 auto;
+    }
+    .section2-img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 32px 0 40px 0;
+    }
+    .sec3-pad{
+        padding: 32px 18px 40px;
+    }
+    .section3-h{
+        font-family: "CircularStd-Bold", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        margin: 0 auto;
+    }
+    .sec3-mainbox{
+        border-radius: 12px;
+        border: solid 1.5px #0f1318;
+        background-color: rgba(0, 0, 0, 0.12);
+        padding: 2px 2px 12px ;
+        margin-top: 18px;
+    }
+    .sec3-subbox{
+        padding: 16px 13px 24px 12px;
+        background-color: #f3efe7;
+    }
+    .sec3-box-logo{
+        width: 58px;
+        height: 58px;
+        display: block;
+        margin: 0 auto;
+    }
+    .sec3-h{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        padding-top: 12px ;
+
+    }
+    .sec3-desc{
+        font-family:" CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+    }
+    .foo-bg{
+        padding: 24px 44px 24px 45px;
+        background-color: #d4181d;
+    }
+    .foot-img{
+        width: 42px;
+        height: 38px;
+        display: block;
+        margin: 0 auto;
+    }
+    .foo-desc{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-top: 12px;
+    }
+    .foo-button{
+        padding: 11px 12px 13px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    /* modal */
+    .adctv-modal{
+        padding: 12px 0 16px;
+        border-radius: 4px;
+        background-color: #fff;
+
+    }
+    .modal-header{
+        padding: 0;
+        padding-left: 16px;
+    }
+    label{
+        font-family: "CircularStd-Book",sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #81868b;
+    }
+    .form-control{
+        padding: 11px 97px 11px 12px;
+        border-radius: 4px;
+        background-color: #ededea;
+        font-family: "CircularStd-Book", sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        color: #0f1318;
+        margin-bottom: 16px;
+    }
+    .form-group{
+        margin-bottom: 0;
+    }
+    .modal-footer{
+        padding: 0;
+    }
+    .mdlbtn{
+        padding: 13px 82px 14px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin: 0 16px;
+    }
+}
+@media (min-width: 992px) { 
+    .header-logo{
+        width: 56px;
+        height: 50px;
+    }
+    .header-button{
+        padding: 11px 12px 13px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        float: right;
+        border: 0;
+    }
+    .adctv-h1{
+        font-family: "CircularStd", sans-serif;
+        font-size: 52px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        padding: 72px 0 24px 0;
+        max-width: 803px;
+        margin: 0 auto;
+    }
+    .adctv-main-desc{
+        font-family: "CircularStd", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: normal;
+        text-align: center;
+        max-width: 705px;
+        color: #0f1318;
+        margin: 0 auto;
+        padding-bottom: 32px;
+    }
+    .section2-button{
+        padding: 15px 16px 19px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        border: 0;
+    }
+    .section2-img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 72px 0 105px 0;
+    }
+    .sec3-pad{
+        padding: 32px 18px 40px;
+    }
+    .section3-h{
+        font-family: "CircularStd-Bold", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        margin: 0 auto;
+    }
+    .sec3-mainbox{
+        border-radius: 12px;
+        border: solid 1.5px #0f1318;
+        background-color: rgba(0, 0, 0, 0.12);
+        padding: 2px 2px 12px ;
+        margin-top: 18px;
+    }
+    .sec3-subbox{
+        padding: 16px 13px 24px 12px;
+        background-color: #f3efe7;
+        min-height: 348px;
+    }
+    .sec3-box-logo{
+        width: 58px;
+        height: 58px;
+        display: block;
+        margin: 0 auto;
+    }
+    .sec3-h{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        padding-top: 12px ;
+
+    }
+    .sec3-desc{
+        font-family:" CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.78;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+        margin: 0 auto;
+        max-width: 306px;
+    }
+    .foo-bg{
+        background-color: #d4181d;
+    }
+    .foo-pad{
+        padding: 32px 0 32px;
+    }
+    .pad-0{
+        padding: 0;
+        margin: auto;
+    }
+    .foot-img{
+        width: 42px;
+        height: 38px;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+    .foo-desc{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-top: auto;
+        float: right;
+    }
+    .foo-button{
+        padding: 12px 16px 14px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium",sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        margin: 0px ;
+        display: block;
+        float: right;
+    }
+    /* modal */
+    .modal-header{
+        padding: 24px 0 32px ;
+        border: 0;
+    }
+    .modal-content{
+        padding: 0 40px 40px;
+    }
+    .modal-body{
+        padding: 0;
+    }
+    .modal-dialog{
+        max-width: fit-content;
+    }
+    label{
+        font-family: "CircularStd-Book", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: #81868b;
+    }
+    .form-control{
+        width: 376px;
+        padding: 14px 183px 18px 16px;
+        border-radius: 4px;
+        background-color: #ededea;
+        font-family: "CircularStd-Book", sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #0f1318;
+    }
+    .modal-footer{
+        padding: 16px 0 0;
+        border: 0;
+    }
+    .mdlbtn{
+        margin: 32px 0 0 617px;
+        padding: 15px 16px 19px;
+        border-radius: 4px;
+        background-color: #0f1318;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        border: 0;
+    }
+ }
+
+
+/* common */
+ .bottom-b{
+    border-bottom: solid 1px #0f1318;
+    
+}
+.section3-bg{
+    background-color: #f6f5ed;
+}
