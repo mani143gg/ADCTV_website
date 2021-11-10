@@ -177,6 +177,17 @@
         padding: 0;
         padding-left: 16px;
     }
+    .modal-title{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
+    }
     label{
         font-family: "CircularStd-Book",sans-serif;
         font-size: 14px;
@@ -394,7 +405,7 @@
         margin: 0 auto;
         display: block;
     }
-    /* modal */
+   /* modal */
     .adctv-modal{
         padding: 12px 0 16px;
         border-radius: 4px;
@@ -404,6 +415,17 @@
     .modal-header{
         padding: 0;
         padding-left: 16px;
+    }
+    .modal-title{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #212121;
     }
     label{
         font-family: "CircularStd-Book",sans-serif;
