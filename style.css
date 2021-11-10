@@ -631,6 +631,17 @@
         float: right;
     }
     /* modal */
+    .modal-title{
+        font-family: "CircularStd",sans-serif;
+          font-size: 26px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.38;
+          letter-spacing: normal;
+          text-align: center;
+          color: #212121;
+    }
     .modal-header{
         padding: 24px 0 32px ;
         border: 0;
