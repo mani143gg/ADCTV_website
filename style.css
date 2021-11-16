@@ -19,6 +19,22 @@
         color: #fff;
         float: right;
     }
+    .headder-demos-button{
+        padding: 12px 16px 14px;
+        border-radius: 4px;
+        border: solid 1.5px #0f1318;
+        background-color: #fff;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        height: 44px;
+    }
     .adctv-h1{
         font-family: "CircularStd", sans-serif;
         font-size: 24px;
@@ -130,6 +146,8 @@
     .foo-bg{
         padding: 24px 44px 24px 45px;
         background-color: #d4181d;
+        position: fixed;
+        bottom: 0;
     }
     .foot-img{
         width: 42px;
@@ -245,19 +263,36 @@
         height: 38px;
     }
     .header-button{
-        padding: 11px 12px 13px;
+        padding: 12px 16px 14px;
         border-radius: 4px;
         background-color: #0f1318;
         font-family: "CircularStd-Medium",sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 0.86;
+        line-height: 1.13;
         letter-spacing: normal;
         text-align: center;
         color: #fff;
         float: right;
+        border: 0;
+    }
+    .headder-demos-button{
+        padding: 12px 16px 14px;
+        border-radius: 4px;
+        border: solid 1.5px #0f1318;
+        background-color: #fff;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        
     }
     .adctv-h1{
         font-family: "CircularStd", sans-serif;
@@ -368,8 +403,11 @@
         margin: 0 auto;
     }
     .foo-bg{
-        padding: 24px 44px 24px 45px;
+        
         background-color: #d4181d;
+        position: static;
+        bottom: 0;
+        width: 100%;
     }
     .foot-img{
         width: 42px;
@@ -481,20 +519,36 @@
         height: 50px;
     }
     .header-button{
-        padding: 11px 12px 13px;
+        padding: 12px 16px 14px;
         border-radius: 4px;
         background-color: #0f1318;
         font-family: "CircularStd-Medium",sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 0.86;
+        line-height: 1.13;
         letter-spacing: normal;
         text-align: center;
         color: #fff;
         float: right;
         border: 0;
+    }
+    .headder-demos-button{
+        padding: 12px 16px 14px;
+        border-radius: 4px;
+        border: solid 1.5px #0f1318;
+        background-color: #fff;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        
     }
     .adctv-h1{
         font-family: "CircularStd", sans-serif;
@@ -608,6 +662,9 @@
     }
     .foo-bg{
         background-color: #d4181d;
+        position: static;
+        bottom: 0;
+        width: 100%;
     }
     .foo-pad{
         padding: 32px 0 32px;
@@ -731,21 +788,112 @@
         height: 50px;
     }
     .header-button{
-        padding: 11px 12px 13px;
+        padding: 12px 16px 14px;
         border-radius: 4px;
         background-color: #0f1318;
         font-family: "CircularStd-Medium",sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 0.86;
+        line-height: 1.13;
         letter-spacing: normal;
         text-align: center;
         color: #fff;
         float: right;
         border: 0;
     }
+    /* demos page */
+    .headder-demos-button{
+        padding: 12px 16px 14px;
+        border-radius: 4px;
+        border: solid 1.5px #0f1318;
+        background-color: #fff;
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        
+    }
+    .video-bg{
+        background-color: #f6f5ed;
+    }
+    .video-board{
+        margin: auto;
+        padding: 72px 135px 104px;
+        
+        display: block;
+    }
+
+
+    .paddign-104px{
+        margin-top: 104px;
+    }
+    .video-head{
+        font-family: "CircularStd-Bold",sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        
+    }
+    .video-subhed{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f1318;
+        margin: 0 auto;
+        display: block;
+        width: 705px;
+        
+    }
+    .video{
+        width: 100%;
+        height: 323px;
+    }
+    .video-title{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        color: #212121;
+        padding: 24px 0 0;
+        text-align: left;
+    }
+    .video-desc{
+        font-family: "CircularStd-Medium", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        color: #0f1318;
+        margin: 0 auto;
+    }
+    .pad-top-56px{
+        padding: 0px;
+        padding-top: 56px;
+    }
+
+    /* eof demos */
     .adctv-h1{
         font-family: "CircularStd", sans-serif;
         font-size: 52px;
@@ -858,6 +1006,12 @@
     }
     .foo-bg{
         background-color: #d4181d;
+        position: static;
+        bottom: 0;
+        width: 100%;
+        height: 131px;
+        padding: 0;
+        
     }
     .foo-pad{
         padding: 32px 0 32px;
@@ -994,3 +1148,6 @@
 .contact__msg {
     display: none;
 }
+/* body{
+    padding-bottom: 130px;
+} */
