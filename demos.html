@@ -338,20 +338,17 @@
             var vid = document.getElementsByClassName("advideo");
             // var elem = document.getElementByClassName("myvideo");
 
-            vid.mute=true;
-             function keyPress (e) {
-                let elem = document.getElementById(id);
-                if(e.keyCode === 27) {
-                    // write your logic here.
-                    elem.play(); 
-                        }
-                    }
             function openFullscreen(id) {
-                var elem = document.getElementById(id);
+                let elem = document.getElementById(id);
               if (elem.requestFullscreen) {
                 elem.requestFullscreen();
                 elem.play();
-                document.addEventListener("keyPress",keyPress());
+                document.addEventListener('fullscreenchange', () => {if (document.fullscreenElement) {
+                console.log(`Element: ${document.fullscreenElement.id} entered full-screen mode.`);
+            } else {
+                let elem = document.getElementById(id);
+                elem.pause();
+            }});
               } else if (elem.webkitRequestFullscreen) { /* Safari */
                 elem.webkitRequestFullscreen();
                 video.autoPlay = true;
@@ -362,7 +359,7 @@
             }
 
 
-
+            
             // function closeFullscreen(id) {
             //     var stp = document.getElementById(id);
             //     if (stp.exitFullscreen) {
