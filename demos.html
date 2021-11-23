@@ -58,7 +58,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video id="advideo" class="video" controls muted> 
+                    <video id="advideo" class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/apple2_4_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -72,7 +72,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls muted> 
+                    <video class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/Disney_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -87,7 +87,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls muted> 
+                    <video class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/Dominos%20_2_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -101,7 +101,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls muted> 
+                    <video class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/hulu_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -115,7 +115,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls muted> 
+                    <video class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/oppo_2_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -129,7 +129,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls muted> 
+                    <video class="video" controls muted controlsList="nodownload"> 
                         <source src="https://ads.adctv.com/adctv/Samsung__5_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -151,7 +151,7 @@
 
                 <div class="col-md-6 pt-md-0 pad-0  pr-md-3 pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls muted id="myvideo1" onclick="openFullscreen('myvideo1'); " controlsList="nodownload">
+                    <video width="100%" controls muted id="myvideo1" onclick="openFullscreen('myvideo1'); return false " controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/apple2_4_x264.mp4" type="video/mp4">
                       </video>
                      
@@ -208,7 +208,7 @@
 
                 <div class="col-md-6  pl-md-3 pad-top-56px pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls muted id="myvideo6" onclick="openFullscreen('myvideo6'); return false" onclick="closeFullscreen('myvideo6'); return false" controlsList="nodownload">
+                    <video width="100%" controls muted id="myvideo6" onclick="openFullscreen('myvideo6'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/Samsung__5_x264.mp4" type="video/mp4">
                       </video>
                     <h3 class="video-title">Easy to Use Templates</h3>
@@ -356,31 +356,6 @@
                 elem.msRequestFullscreen();
                 video.autoPlay = true;
               }
-            }
-
-
-            
-            // function closeFullscreen(id) {
-            //     var stp = document.getElementById(id);
-            //     if (stp.exitFullscreen) {
-            //         stp.pause();
-            //         stp.exitFullscreen();
-                    
-            //     } else if (stp.mozCancelFullScreen) {
-            //         stp.mozCancelFullScreen();
-            //         stp.pause();
-            //     } else if (stp.webkitExitFullscreen) {
-            //         stp.webkitExitFullscreen();
-            //         stp.pause();
-            //     } else if (stp.msExitFullscreen) {
-            //         window.top.stp.msExitFullscreen();
-            //         stp.pause();
-            //     }
-            // }
-
-            function closeFullscreen(id) {
-             var stp = document.getElementById(id);
-                stp.pause();
             }
             </script>
 </body>
