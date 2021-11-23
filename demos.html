@@ -58,7 +58,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video id="advideo" class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/apple2_4_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -72,7 +72,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/Disney_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -87,7 +87,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/Dominos%20_2_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -101,7 +101,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/hulu_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -115,7 +115,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/oppo_2_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -129,7 +129,7 @@
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
                     <!-- video -->
 
-                    <video class="video" controls> 
+                    <video class="video" controls muted> 
                         <source src="https://ads.adctv.com/adctv/Samsung__5_x264.mp4" type="video/mp4"> 
                     </video>
 
@@ -151,7 +151,7 @@
 
                 <div class="col-md-6 pt-md-0 pad-0  pr-md-3 pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo1" onclick="openFullscreen('myvideo1'); " controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/apple2_4_x264.mp4" type="video/mp4">
                       </video>
                      
@@ -163,7 +163,7 @@
 
                 <div class="col-md-6 pt-md-0 pad-0 pl-md-3 pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo2" onclick="openFullscreen('myvideo2'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/Disney_x264.mp4" type="video/mp4">
                       </video>
                     
@@ -175,7 +175,7 @@
 
                 <div class="col-md-6  pr-md-3 pad-top-56px pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo3" onclick="openFullscreen('myvideo3'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/Dominos%20_2_x264.mp4" type="video/mp4">
                       </video>
                     <h3 class="video-title">Easy to Use Templates</h3>
@@ -186,7 +186,7 @@
 
                 <div class="col-md-6  pl-md-3 pad-top-56px pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo4" onclick="openFullscreen('myvideo4'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/hulu_x264.mp4" type="video/mp4">
                       </video>
                     <h3 class="video-title">Easy to Use Templates</h3>
@@ -197,7 +197,7 @@
 
                 <div class="col-md-6  pr-md-3 pad-top-56px pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo5" onclick="openFullscreen('myvideo5'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/oppo_2_x264.mp4" type="video/mp4">
                       </video>
                     <h3 class="video-title">Easy to Use Templates</h3>
@@ -208,7 +208,7 @@
 
                 <div class="col-md-6  pl-md-3 pad-top-56px pad-top-mob">
                     <!-- <img class="video" src="assets/group-25.png" alt=""> -->
-                    <video width="100%" controls id="myvideo" onclick="openFullscreen();" onclick="closeFullscreen();">
+                    <video width="100%" controls muted id="myvideo6" onclick="openFullscreen('myvideo6'); return false" onclick="closeFullscreen('myvideo6'); return false" controlsList="nodownload">
                         <source src="https://ads.adctv.com/adctv/Samsung__5_x264.mp4" type="video/mp4">
                       </video>
                     <h3 class="video-title">Easy to Use Templates</h3>
@@ -335,28 +335,48 @@
         </script>
         <!-- video full screnn -->
         <script>
-            var elem = document.getElementById("myvideo");
-            function openFullscreen() {
+            var vid = document.getElementsByClassName("advideo");
+            // var elem = document.getElementByClassName("myvideo");
+
+            vid.mute=true;
+             
+            function openFullscreen(id) {
+                var elem = document.getElementById(id);
               if (elem.requestFullscreen) {
                 elem.requestFullscreen();
+                elem.play();
               } else if (elem.webkitRequestFullscreen) { /* Safari */
                 elem.webkitRequestFullscreen();
+                video.autoPlay = true;
               } else if (elem.msRequestFullscreen) { /* IE11 */
                 elem.msRequestFullscreen();
+                video.autoPlay = true;
               }
             }
 
 
-            function closeFullscreen() {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                } else if (document.mozCancelFullScreen) {
-                    document.mozCancelFullScreen();
-                } else if (document.webkitExitFullscreen) {
-                    document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) {
-                    window.top.document.msExitFullscreen();
-                }
+
+            // function closeFullscreen(id) {
+            //     var stp = document.getElementById(id);
+            //     if (stp.exitFullscreen) {
+            //         stp.pause();
+            //         stp.exitFullscreen();
+                    
+            //     } else if (stp.mozCancelFullScreen) {
+            //         stp.mozCancelFullScreen();
+            //         stp.pause();
+            //     } else if (stp.webkitExitFullscreen) {
+            //         stp.webkitExitFullscreen();
+            //         stp.pause();
+            //     } else if (stp.msExitFullscreen) {
+            //         window.top.stp.msExitFullscreen();
+            //         stp.pause();
+            //     }
+            // }
+
+            function closeFullscreen(id) {
+             var stp = document.getElementById(id);
+                stp.pause();
             }
             </script>
 </body>
