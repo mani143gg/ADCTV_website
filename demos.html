@@ -339,12 +339,19 @@
             // var elem = document.getElementByClassName("myvideo");
 
             vid.mute=true;
-             
+             function keyPress (e) {
+                let elem = document.getElementById(id);
+                if(e.keyCode === 27) {
+                    // write your logic here.
+                    elem.play(); 
+                        }
+                    }
             function openFullscreen(id) {
                 var elem = document.getElementById(id);
               if (elem.requestFullscreen) {
                 elem.requestFullscreen();
                 elem.play();
+                document.addEventListener("keyPress",keyPress());
               } else if (elem.webkitRequestFullscreen) { /* Safari */
                 elem.webkitRequestFullscreen();
                 video.autoPlay = true;
