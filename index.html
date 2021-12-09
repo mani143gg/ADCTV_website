@@ -149,6 +149,9 @@
                                             <input type="text" name="country" class="form-control" id="inputCountry" placeholder="">
                                             <input type="hidden" name="pageTitle" value="ADCTV Landing Page">
                                         </div>
+
+                                        <!-- recaptcha value -->
+                                        <input type="hidden" name="reCaptcha_token" id="reCaptcha_token">
                                     </div>
                                 
                             </div>
@@ -158,8 +161,7 @@
                 
                 <div class="modal-footer ">
                     <div class="g-recaptcha" 
-                    data-sitekey="6LfiHI0dAAAAABYr8AG_cPPebWxaBJbyqYYZfluU
-                    " 
+                    data-sitekey="6LfiHI0dAAAAABYr8AG_cPPebWxaBJbyqYYZfluU" 
                     ></div>
                     <button type="submit" class="mdlbtn">Submit details</button>
                 </div>
@@ -225,6 +227,11 @@
     alert("please verify you are humann!"); 
     evt.preventDefault();
     return false;
+  }
+  else{
+    //   console.log(grecaptcha.getResponse());
+      document.getElementById('reCaptcha_token').value=grecaptcha.getResponse();
+      
   }
   //captcha verified
   //do the rest of your validations here

@@ -276,7 +276,8 @@
                                             <input type="hidden" name="pageTitle" value="ADCTV Landing Page">
                                         </div>
                                     </div>
-                                
+                                <!-- recaptcha value -->
+                                <input type="hidden" name="reCaptcha_token" id="reCaptcha_token">
                             </div>
                         </div>
                     </div>
@@ -336,6 +337,8 @@
     })(jQuery);
     //# sourceURL=pen.js
         </script>
+
+
         <!-- video full screnn -->
         <script>
             var vid = document.getElementsByClassName("advideo");
@@ -361,5 +364,31 @@
               }
             }
             </script>
+
+
+
+<!-- reCaptcha -->
+<script>
+    document.getElementById("captcha_form").addEventListener("submit",function(evt)
+  {
+  
+  var response = grecaptcha.getResponse();
+  if(response.length == 0) 
+  { 
+    //reCaptcha not verified
+    alert("please verify you are humann!"); 
+    evt.preventDefault();
+    return false;
+  }
+  else{
+    //   console.log(grecaptcha.getResponse());
+      document.getElementById('reCaptcha_token').value=grecaptcha.getResponse();
+      
+  }
+  //captcha verified
+  //do the rest of your validations here
+  
+});
+</script>
 </body>
 </html>
