@@ -24,6 +24,7 @@
 <link rel="icon" href="assets/favicon.svg"  type="image/x-icon"/>
 <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon"/>
 <title>ADCTV</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <section class="bottom-b">
@@ -127,7 +128,7 @@
                     <div class="container m-0 px-0 py-0">
                         <div class="row">
                             <div class="col-md-12 ">
-                                <form class="contact__form" method="post" action="https://app.selfserveplus.com/api/contact">
+                                <form class="contact__form" method="post" action="https://app.selfserveplus.com/api/contact" id="captcha_form">
                                     <div class="form-group row" >
                                         <div class="col-sm-6 col-lg-6 col-md-6 col-xl-6">
                                             <label class="namelbl" for="inputFirstname" >Name</label>
@@ -154,7 +155,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
+                
+                <div class="modal-footer ">
+                    <div class="g-recaptcha" 
+                    data-sitekey="6Ldh3IwdAAAAALK4yuKv3GfBkxrIYJryyKnclCyV" 
+                    ></div>
                     <button type="submit" class="mdlbtn">Submit details</button>
                 </div>
             </form>      
@@ -206,5 +211,24 @@
     })(jQuery);
     //# sourceURL=pen.js
         </script>
+
+<!-- reCaptcha -->
+<script>
+    document.getElementById("captcha_form").addEventListener("submit",function(evt)
+  {
+  
+  var response = grecaptcha.getResponse();
+  if(response.length == 0) 
+  { 
+    //reCaptcha not verified
+    alert("please verify you are humann!"); 
+    evt.preventDefault();
+    return false;
+  }
+  //captcha verified
+  //do the rest of your validations here
+  
+});
+</script>
 </body>
 </html>
